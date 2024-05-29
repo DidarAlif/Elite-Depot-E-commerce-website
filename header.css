@@ -1,0 +1,34 @@
+/* Updated CSS */
+
+.search-form form{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+ }
+ 
+ .search-form form .box{
+    width: 10rem;
+    padding: 1.2rem 1.4rem;
+    border: var(--border);
+    font-size: 2rem;
+    color: var(--black);
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+ }
+ 
+ .search-form form .btn{
+    margin-top: 0;
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    padding: 1.2rem 1.4rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+ }
+ 
+ .search-form form .btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+ }
+ 
